@@ -1,6 +1,7 @@
 #Ingólfur Óskarsson
 from bottle import *
 from beaker.middleware import SessionMiddleware
+import os
 
 session_opts = {
     'session.type': 'file',
