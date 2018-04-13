@@ -70,4 +70,4 @@ def eyda():
     return "Vörum eytt!<br><a href='/'>Heim</a>"
 
 # Muna eftir app=app í run fallinu
-run(app=app)
+run(host='0.0.0.0', port=os.environ.get('PORT'),app=app)
