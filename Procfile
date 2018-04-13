@@ -1,1 +1,1 @@
-web: python verkefni7b.py
+web: python verk7b.py
